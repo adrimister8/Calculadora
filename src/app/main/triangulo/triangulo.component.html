@@ -1,0 +1,24 @@
+<div>
+  <h2>Triángulo</h2>
+  <label class="col-2" for="lado1">Lado 1:</label>
+  <input type="number" [(ngModel)]="lado1" />
+  <br />
+  <label class="col-2" for="lado2">Lado 2:</label>
+  <input type="number" [(ngModel)]="lado2" />
+  <br />
+  <label class="col-2" for="lado3">Lado 3:</label>
+  <input type="number" [(ngModel)]="lado3" />
+  <br />
+  <label class="col-2" for="lado2">Base:</label>
+  <input type="number" [(ngModel)]="base" />
+  <br />
+  <label class="col-2" for="lado3">Altura:</label>
+  <input type="number" [(ngModel)]="altura" />
+  <br />
+
+  <button (click)="calcularArea()">Calcular Area</button>
+  <button (click)="calcularPerimetro()">Calcular Perímetro</button>
+
+  <h3 id="area">Area: </h3>
+  <h3 id="perimetro">Perimetro: </h3>
+</div>
