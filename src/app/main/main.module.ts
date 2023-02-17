@@ -26,7 +26,9 @@ import { FormsModule } from '@angular/forms';
   exports: [
     TrianguloComponent,
     CirculoComponent,
-    RectanguloComponent
+    RectanguloComponent,
+    CuadradoComponent
+
   ]
 })
 export class MainModule { }

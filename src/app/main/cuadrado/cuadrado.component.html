@@ -1,1 +1,13 @@
-<p>cuadrado works!</p>
+<div>
+  <h2>Cuadrado</h2>
+  <br />
+  <label class="col-2" for="lado">lado:</label>
+  <input type="number" [(ngModel)]="lado" />
+
+
+  <button (click)="calcularArea()">Calcular Area</button>
+  <button (click)="calcularPerimetro()">Calcular Perímetro</button>
+
+  <h3 id="area">Area: </h3>
+  <h3 id="perimetro">Perimetro: </h3>
+</div>
