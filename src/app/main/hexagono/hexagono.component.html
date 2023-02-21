@@ -1,1 +1,17 @@
-<p>hexagono works!</p>
+<div>
+    <h2>Hexágono</h2>
+    <br />
+    <label class="col-2" for="lado2">Lado:</label>
+    <input type="number" [(ngModel)]="lado" />
+    <br />
+    <label class="col-2" for="lado3">Apotema:</label>
+    <input type="number" [(ngModel)]="apotema" />
+    <br />
+  
+    <button (click)="calcularArea()">Calcular Area</button>
+    <button (click)="calcularPerimetro()">Calcular Perímetro</button>
+    
+    <h3 id="area">Area: </h3>
+    <h3 id="perimetro">Perimetro: </h3>
+
+  </div>
